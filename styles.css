@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Pacifico';
+    
+    src: url('./fonts/Pacifico-Regular.ttf') format('opentype'); 
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    
+    src: url('./fonts/MontserratAlternates-Regular.ttf') format('opentype'); 
+}
+
+
+.paragraph1{
+    font-family: 'Pacifico', sans-serif;
+    font-weight: 400;  
+}
+
+.paragraph2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+}
