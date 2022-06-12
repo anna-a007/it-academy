@@ -1,7 +1,6 @@
 
 .block{
     max-width: 100%;
-    
     padding: 50px;
 
     background: 
@@ -10,7 +9,7 @@
     url('./images/bottom-left.png') left bottom no-repeat, 
     url('./images/top-left.png') left top no-repeat,
     url('./images/middle_V.png') left center repeat-y, 
-    url('./images/middle_G.png') bottom center repeat-x,  
+    url('./images/middle_G1.png') bottom center repeat-x,  
     url('./images/middle_V.png') right center repeat-y,
     url('./images/middle_G.png') top center repeat-x;
     
