@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;  
+}
+
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.header{
+    height: 50px;
+    background-color:PowderBlue;
+    color: blue;
+    text-align:center;
+    font-size: 20px;
+}
+
+
+.sidebar{
+    width: 400px;
+    background-color:khaki;
+    vertical-align: top;  
+}
+
+.sidebar ul {
+    padding-right: 18px;
+}
+
+.sidebar li {
+    margin-bottom: 7px;
+}
+
+.content{
+    width: 100%; 
+    vertical-align: top; 
+    background: url('./images/boll3.png') right top repeat-y ;
+}
+
+
+.footer{
+    height: 60px;
+    background-color:PowderBlue;
+    color: blue;
+    text-align:center;
+    font-size: 20px;
+    border-radius: red;
+  
+}
+
+.image{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    float: left;    
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    padding-left: 15px;
+    padding: 20px 10px;
+}
+
+p1{
+    overflow: hidden; 
+}
