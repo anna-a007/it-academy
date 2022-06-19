@@ -1,17 +1,85 @@
+/* .links-1, .links-2 [href="#"]{
+    color: green;} */
 
-.block{
-    max-width: 100%;
-    padding: 50px;
 
-    background: 
-    url('./images/top-right.png') right top no-repeat, 
-    url('./images/bottom-right.png') right bottom no-repeat,
-    url('./images/bottom-left.png') left bottom no-repeat, 
-    url('./images/top-left.png') left top no-repeat,
-    url('./images/middle_V.png') left center repeat-y, 
-    url('./images/middle_G1.png') bottom center repeat-x,  
-    url('./images/middle_V.png') right center repeat-y,
-    url('./images/middle_G.png') top center repeat-x;
-    
 
-}
+    .links-1 li{
+        display: inline-block;
+        border-right: 2px solid red;
+        padding: 10px;
+       }
+       
+       .links-1 a[href="#"]{
+           color: green;
+       }
+       
+       .links-1 a:hover{
+           color: red;
+       }
+       
+       .links-1 li:nth-child(5) {
+           border-right:none; 
+       }
+       
+       
+       .links-2 li{
+        float: left;
+        border-right: 2px solid red;
+        padding: 10px;
+        margin: 0px;
+        list-style-type: none;
+        text-align: center;
+       }
+       
+       .links-2 a[href="#"]{
+           color: green;
+       }
+       .links-2 a:hover{
+           color: red;
+       }
+       
+       .links-2 li:nth-child(5) {
+           border-right:none; 
+       }
+       
+       .links-3 li {
+           display: inline;
+           padding: 10px;
+       
+       }
+       
+       .links-3 [href]{
+           color: green;
+       }
+       .links-3 a:hover{
+           color: red;
+       }
+       
+       .links-3 li:nth-child(5) {
+           border-right:none; 
+       }
+       
+       .links-3 li::after {
+           content: "";
+           display: inline-block;
+           width: 1px;
+           height: 35px;
+           background-color: red;
+           margin-left: 10px;
+           vertical-align: -10px;
+           
+       }
+       
+       .links-3 li:nth-child(5) {
+           width: 0;
+           height: 0;
+       }
+       
+       
+       .clear {
+           clear: both;
+       }
+       
+       
+       
+       
