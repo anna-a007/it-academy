@@ -1,47 +1,26 @@
-.name{
-    font-weight: bold;
-    font-size: 18px;
-    padding: 0;
-    margin: 0;
-}
 
-.name+p{
-    color: green;
-    padding: 0;
-    margin: 0;
-}
+    .star{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+    }
 
-.date_of_champion{
-    color: red;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-}
+    
+    .star_item{
+        display:inline-block;
+        background: url(./image/star0.png) no-repeat;
+        height: 100px;
+        width: 100px; 
+    }
 
-.link{
-    color: blue;
-    font-weight: bold;
-}
+    .star_item:hover{
+        background: url(./image/star1.png) no-repeat;
+        width: 100px;
+        height: 100px;
+    }
 
-.descriptions{
-    font-style: italic;
-    color: blue;
-}
+  
+    .star_item:hover ~ .star_item{
+        background: url(./image/star1.png) no-repeat;
+    }
 
-/*.link::before{
-    content: url(./image/extref.png);
-    margin: 1px;
-}*/
-
-.link{
-    background: url(./image/extref.png) left no-repeat;
-    padding: 0 0 0 15px;
-}
-
-.start{
-    display: inline-block;
-    color: blue;
-    font-weight: bold; 
-    text-decoration: none;
-    margin-top: 20px;
-}
