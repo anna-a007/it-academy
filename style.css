@@ -1,0 +1,26 @@
+
+    .star{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+    }
+
+    
+    .star_item{
+        display:inline-block;
+        background: url(./image/star0.png) no-repeat;
+        height: 100px;
+        width: 100px; 
+    }
+
+    .star_item:hover{
+        background: url(./image/star1.png) no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+
+  
+    .star_item:hover ~ .star_item{
+        background: url(./image/star1.png) no-repeat;
+    }
+
