@@ -1,0 +1,81 @@
+.sidebar {
+    background: var(--color-black-21);
+    height: 100vh;
+    padding: 16px 20px 16px 0;
+    overflow-y: auto;
+}
+
+.hambarger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.logo-wrapper {
+    margin-bottom: 28px;
+}
+
+.menu-items {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-bottom: 1px solid var(--color-black-38);
+}
+
+.menu-items:first-child {
+    padding-top: 0;
+}
+
+.menu-items li a {
+    display: block;
+    padding: 10px 0 10px 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menu-items li a:hover {
+    background-color: var(--color-black-38);
+}
+
+.menu-items li img {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.menu-title {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--color-gray);
+    text-transform: uppercase;
+    line-height: 16px;
+    padding-left: 21px;
+    margin: 16px 0 -8px;
+}
+
+.menu-items-subscriptions li a::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: var(--color-blue);
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+}
