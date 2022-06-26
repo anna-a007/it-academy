@@ -1,0 +1,68 @@
+.main{
+    width: 80%;
+    font-size: 20px;
+    
+}
+
+.main h3{
+    text-align: center;
+    padding: 25px 25px;
+    font-weight: bold;
+}
+
+.block{
+    position: fixed;
+    width: 130px;
+    height: 75px;
+    top: 15px;
+    left: 88%;
+    border: 3px solid #006400;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+    }
+    
+
+@media screen and (max-width:768px) {
+    .main h3 { 
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 10px;
+  }
+
+  .block { 
+    width: 100px;
+    height: 60px;
+    top: 15px;
+    left: 83%;
+    padding: 5px 0 5px 0;
+}
+ .block a{
+   font-size: 15px;
+}
+} 
+
+
+ @media screen and (max-width:320px) {
+      .main{
+          width: 500px;
+          font-size: 20px;
+      }
+      .main h3 { 
+          font-size: 20px;
+          text-align: center;
+          padding: 10px 10px;
+      }
+
+      .block { 
+        width: 100px;
+        height: 35px;
+        top: 48px;
+        left: 67%;
+        padding: 0px;
+  }
+     .block a{
+       font-size: 10px;
+ }
+  }
+

@@ -1,0 +1,23 @@
+.image{
+    float: left;
+    margin: 0 35px 20px 35px;
+    
+}
+
+.clear{
+  clear: left;
+}
+
+@media screen and (max-width:768px) {
+    .image{
+      margin: 0 20px 5px 20px;
+    }
+  } 
+
+
+@media screen and (max-width:320px) {
+    .image{
+        display: block;
+        margin: 0 auto
+      }
+  }
