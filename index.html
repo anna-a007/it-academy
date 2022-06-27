@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maket_ABS</title>
+    <title>FORM</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <p>
-        Я к вам пишу — чего же боле? Что я могу еще сказать? Теперь, я знаю, в вашей воле Меня презреньем наказать. Но
-        вы, к моей несчастной доле Хоть каплю жалости храня, Вы не оставите меня. Сначала я молчать хотела; Поверьте:
-        моего стыда Вы не узнали б никогда, Когда б надежду я имела Хоть редко, хоть в неделю раз В деревне нашей видеть
-        вас.
-    </p>
-    <div class="container">
-        <div class="wrapper">
-            <div class="picture1">
-                <img src="./image/biohazard.png" alt="biohazard">
-            </div>
-            <div class="picture2">
-                <img src="./image/Man-and-woman.png" alt="Man-and-woman">
-            </div>
-            <div class="picture3">
-                <img src="./image/Yin_and_Yang.png" alt="Yin_and_Yang.png">
-            </div>
-            <div class="picture4">
-                <img src="./image/No_smoking.png" alt="No_smoking.png">
-            </div>
+    <div class="wrapper">
+        <div class="content">
+            <form method="get">
+                Для публикации вашей статьи заполните, пожалуйста, следующую форму: <br> <br>
+                <div class="article">
+                    <label> Название статьи: <br>
+                        <input type="text" class="name_article" name="article"></label>
+                </div>
+                Рубрика:<br>
+                <select class="category" name="category" id="">
+                    <option value="1">компьютерная техника</option>
+                    <option value="2">графика и дизайн</option>
+                    <option value="3" selected> программирование</option>
+                </select> <br>
+                Публикация:<br>
+                <input type="radio" name="publish" value="4">на сайте <br>
+                <input type="radio" name="publish" value="5">в журнале <br>
+                <input type="radio" name="publish" value="6">на сайте и в журнале <br>
+                Разрешить комментарии: 
+                <input type="checkbox" name="comments" checked ><br>
+                Текст статьи:<br>
+                <textarea class="textarea" name="text"></textarea> <br>
+                <button type="submit"> Опубликовать</button>
+            </form>
         </div>
-
     </div>
-    <p>
-        Чтоб только слышать ваши речи, Вам слово молвить, и потом Все думать, думать об одном И день и ночь до новой
-        встречи.
-    </p>
 </body>
-
 </html>
