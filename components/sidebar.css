@@ -1,0 +1,53 @@
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 20%;
+    background:blanchedalmond
+}
+ 
+.sidebar ul li{
+  font-size: 20px;
+  margin-left: 50px;
+  line-height: 30px;
+    
+}
+
+.sidebar h4{
+    font-size: 24px;
+    margin: 25px 0 25px 20px;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .sidebar ul li{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    }
+    .sidebar h4{
+    font-size: 18px;
+    margin: 17px 0 14px 20px;
+    } 
+} 
+
+@media screen and (max-width:320px) {
+
+    .sidebar{
+       
+        min-width: 300px;
+        background:none;
+    }
+    .sidebar li{
+        display: inline-block; 
+        line-height: 5px; 
+    }
+    
+    .sidebar h4{ 
+        font-size: 20px;
+        margin: 5px 5px;
+    }
+}
