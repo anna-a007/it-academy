@@ -6,36 +6,54 @@
 .wrapper{
     width: 100vw;
     height: 100vh;
-    background: yellow;
+    background: rgb(155, 209, 191);
 }
 
-.content{
-    padding: 20px 15px;
+p{
+margin-left: 10px;
 }
 
-.name_article{
-    width: 100%;
+.article{
+    margin-left: 10px;
+}
+
+.article input{
+    width: 70%;
+    margin-left: 29px;
 }
 
 .category{
-    width: 100%;
+    margin-left: 10px;
 }
 
-.textarea{
-    width: 100%;
+.category select{
+    width: 30%;
+    margin-left: 85px;
 }
 
-@media screen and (min-width:768px) {
-    input {
-        margin-left: 30px;
-    }
-  
-  
 
-    .name_article{
-        width: 80%;
-    }
- 
-    }
+.publish{
+    margin-left: 10px;
+}
 
+.publish-1{
+    display: inline;
+    margin-right: 58px;
+}
 
+.comment{
+    margin-left: 10px;
+}
+
+.text{
+    margin-left: 10px;
+    
+}
+
+.text textarea{
+    width: 84%;
+}
+
+button{
+    margin-left: 10px;
+}
