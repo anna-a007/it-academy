@@ -1,59 +1,45 @@
 *{
-    padding: 0;
-    margin: 0;
-}
-
-.wrapper{
-    width: 100vw;
-    height: 100vh;
-    background: rgb(155, 209, 191);
-}
-
-p{
-margin-left: 10px;
-}
-
-.article{
-    margin-left: 10px;
-}
-
-.article input{
-    width: 70%;
-    margin-left: 29px;
-}
-
-.category{
-    margin-left: 10px;
-}
-
-.category select{
-    width: 30%;
-    margin-left: 85px;
+    box-sizing: border-box;
 }
 
 
-.publish{
-    margin-left: 10px;
-}
-
-.publish-1{
-    display: inline;
-    margin-right: 58px;
-}
-
-.comment{
-    margin-left: 10px;
-}
-
-.text{
-    margin-left: 10px;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 3px;
     
 }
 
-.text textarea{
-    width: 84%;
+
+
+label {
+    padding: 5px 5px 5px 0;
+    display: inline-block;
 }
 
-button{
-    margin-left: 10px;
+.name-1 {
+    float: left;
+    width: 25%;
+    
+}
+
+.name-2 {
+    float: left;
+    width: 75%;
+    margin-top: 4px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .name-1, .cname-2 {
+        width: 100%;
+    }
+
+   
+    
 }
