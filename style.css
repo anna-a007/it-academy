@@ -1,23 +1,25 @@
- @import url(./components/hover.css);
- 
- .square-1{
-    fill: rgb(152, 184, 214);
-    stroke: rgb(15, 18, 160); 
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100vw;
+    height: 100vh;
 }
 
-.square-2{
-    fill: rgb(101, 192, 165);
-    stroke: rgb(18, 139, 93); 
+.star{
+    width: 200px;
+    height: 200px;
 }
 
-.triangle{
-    fill: rgb(181, 235, 192);
-    stroke: rgb(15, 18, 160); 
+.square{
+    width: 200px;
+    height: 200px;
 }
 
-
-.polyhedron{
-    fill: rgb(117, 231, 197);
-    stroke: rgb(97, 182, 142); 
+.poligon{
+    width: 200px;
+    height: 200px;
 }
 
