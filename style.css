@@ -1,62 +1,11 @@
-.container{
-    width: 100%;
-    height: 100%;
-    background: aquamarine;
-}
 .wrapper{
-    position: relative;
-    border: 5px solid red;
-    max-width: 1200px;
-    height: 400px;
-    margin: 0 auto;
-    background: burlywood;
-   
-}
-
-.picture1{
-    position: absolute;
-    left: 450px;
-    transition: 0.3s;  
-    
-}
-
-.picture1:hover {
-    transform: scale(1.3);
-    z-index: 4;
-    
-}
-
-.picture2{
-    position: absolute;
-    right: 350px;
-    transition: 0.3s;  
-}
-
-.picture2:hover {
-    transform: scale(1.3);
-    z-index: 5;
-    
-}
-
-.picture3{
-    position: absolute;
-    left: 570px;
-    top: 200px;
-    transition: 0.3s; 
-}
-
-.picture3:hover {
-    transform: scale(1.3);
-    z-index: 6;
-    
+    width: 600px;
+    height: 1000px;
+    overflow: scroll;
 }
 
 
-.picture4{
-    position: absolute;
-    left: 550px;
-    top: 70px;
-  
-    
+.block-video a{
+    display: block;
 }
 
