@@ -1,0 +1,27 @@
+.polyhedron:hover{
+    fill: rgb(49, 104, 87);
+    stroke: rgb(97, 182, 142);
+    stroke-width:8;
+    stroke-linejoin:bevel;
+}
+
+.triangle:hover{
+    fill: rgb(181, 206, 235);
+    stroke: rgb(70, 17, 105); 
+    stroke-width:8;
+}
+
+.square-1:hover{
+    fill: rgb(41, 112, 194);
+    stroke: rgb(70, 17, 105); 
+    stroke-width:8;
+}
+
+.square-2:hover{
+    fill: rgb(13, 234, 241);
+    stroke: rgb(58, 125, 134); 
+    stroke-width:7;
+    width: 120px;
+    height: 40px;
+
+}
