@@ -1,3 +1,6 @@
+@import url(./css/star.css);
+@import url(./css/square.css);
+@import url(./css/poligon.css);
 
 .container{
     display: flex;
@@ -6,20 +9,15 @@
     justify-content:space-evenly;
     width: 100vw;
     height: 100vh;
+    background-color: aliceblue;
 }
 
-.star{
-    width: 200px;
-    height: 200px;
+
+.container:hover .poligon-1{
+    animation-name: poligon;
+    animation-duration: 8s;
 }
 
-.square{
-    width: 200px;
-    height: 200px;
+.container:hover .square{
+    animation: square 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5 both;
 }
-
-.poligon{
-    width: 200px;
-    height: 200px;
-}
-

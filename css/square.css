@@ -1,0 +1,22 @@
+.square{
+    width: 200px;
+    height: 200px;
+}
+
+
+@keyframes square {
+    0% {
+      transform: rotate(0);
+      transform-origin: left;
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-360deg);
+      transform-origin: left;
+      opacity: 0;
+    }
+  }
+  
+  .square:hover{
+	animation: square 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5 both;
+}
