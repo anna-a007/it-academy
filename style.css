@@ -1,0 +1,23 @@
+ @import url(./components/hover.css);
+ 
+ .square-1{
+    fill: rgb(152, 184, 214);
+    stroke: rgb(15, 18, 160); 
+}
+
+.square-2{
+    fill: rgb(101, 192, 165);
+    stroke: rgb(18, 139, 93); 
+}
+
+.triangle{
+    fill: rgb(181, 235, 192);
+    stroke: rgb(15, 18, 160); 
+}
+
+
+.polyhedron{
+    fill: rgb(117, 231, 197);
+    stroke: rgb(97, 182, 142); 
+}
+
