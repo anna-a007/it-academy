@@ -1,0 +1,25 @@
+.poligon{
+    width: 200px;
+    height: 200px;
+    fill:rgb(206, 223, 243);
+}
+
+
+
+
+@keyframes poligon{
+	from {
+		fill: rgb(206, 223, 243);
+	}
+	to {
+		fill: rgb(7, 109, 211);
+	}
+	
+}
+  .poligon-1:hover {
+    animation-name: poligon;
+    animation-duration: 8s;
+    
+}
+    
+  
