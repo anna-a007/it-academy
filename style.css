@@ -1,0 +1,51 @@
+
+.wrapper{
+    position: relative;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.picture1{
+    position: absolute;
+    left: 30%;
+    transition: 0.3s;  
+    
+}
+
+.picture1:hover {
+    transform: scale(1.3);
+    z-index: 4;
+    
+}
+
+.picture2{
+    position: absolute;
+    left: 50%;
+    transition: 0.3s;  
+}
+
+.picture2:hover {
+    transform: scale(1.3);
+    z-index: 5;
+    
+}
+
+.picture3{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transition: 0.3s; 
+}
+
+.picture3:hover {
+    transform: scale(1.3);
+    z-index: 6;
+}
+
+
+.picture4{
+    position: absolute;
+    left: 38%;
+    top: 18%; 
+}
+
